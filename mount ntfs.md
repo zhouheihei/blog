@@ -1,5 +1,6 @@
 # 挂载ntfs移动硬盘
-
+### 环境：debian 10
+-----
 ## 安装包
 `apt-get install ntfs-3g`
 
