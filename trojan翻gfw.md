@@ -20,26 +20,23 @@
 ---
 
 ### Caddy 安装 配置
-```
   1.下载[Caddy](https://github.com/caddyserver/caddy/releases)
   2.`sudo mv caddy /usr/bin/`
   3.`groupadd --system caddy`
-  4.```useradd --system \
+  4.``` useradd --system \
 	--gid caddy \
 	--create-home \
 	--home-dir /var/lib/caddy \
 	--shell /usr/sbin/nologin \
 	--comment "Caddy web server" \
-	caddy```
+	caddy ```
   5.`cd /etc/systemd/system/`
   6.`wget https://github.com/caddyserver/dist/blob/master/init/caddy.service 修改ExecStart and ExecReload 路径`
-  7.```
-  注册服务
-  sudo systemctl daemon-reload
-  sudo systemctl enable caddy
-  sudo systemctl start caddy
+  7.``` 注册服务
+  	sudo systemctl daemon-reload
+  	sudo systemctl enable caddy
+  	sudo systemctl start caddy
   ```
-```
   
   
   
