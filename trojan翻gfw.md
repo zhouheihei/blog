@@ -117,7 +117,7 @@ debian 10
 ```json
 {
 "run_type": "client"
-	....
+	...
 "local_port": 1080,
 "remote_addr": "your.domain",
 "remote_port": 443,	
@@ -139,8 +139,10 @@ debian 10
 其他默认
 ```
 
-run 客户端trojan
+### run 客户端trojan
 `trojan`
+
+***
 
 ### 安装SwitchOgema for chrome
 下载包->改名zip->解包->chrome开发者模式->安装
